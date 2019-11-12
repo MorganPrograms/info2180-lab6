@@ -63,10 +63,29 @@ $superheroes = [
   ], 
 ];
 
+if(isset($_GET["query"]) && $_GET["query"] == ""){
+    $alias = array();
+    foreach($superheroes as $s){
+        $alias[] = $s["alias"];
+
+    }
+    echo json_encode($alias);
+}
+elseif(isset($_GET["query"]) && $_GET["query"] != "") {
+    define("QUERY" ,$_GET["query"]);
+    foreach($superheroes as $s){
+        if($s["name"] == QUERY || $s["alias"] == QUERY)
+        echo json_encode([$s['name'],$s['alias'],$s['biography']]);
+    }
+    
+}
+
+
+
 ?>
 
-<ul>
-<?php foreach ($superheroes as $superhero): ?>
-  <li><?= $superhero['alias']; ?></li>
-<?php endforeach; ?>
-</ul>
+
+
+
+
+
