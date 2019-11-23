@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Bugme Issue Tracker</title> 
+<link rel="stylesheet" href="styles.css" />
+<script src="scripts.js"></script>
+</head>
+
+<body>
+<div id = "container">
+<div id = "top">
+    <div id = "contents">
+<img id = "bug" src = "roach.jpg" alt = "Roach" ></img> 
+<p>BugMe Issue Tracker</p>
+</div> 
+
+</div>
+<div id = "sidebar">
+        <div id = "contents2">
+                <a href="Issues.html">
+    <img id = "icon" src = "home.png" alt = "home">Home </img> 
+    </a>
+    <br>
+    <a href="NewUser.html">
+    <img id = "icon" src = "user.jpg" alt = "Add User"> Add User </img>
+    </a>
+    <br>
+    <a href="NewIssue.html">
+    <img id = "icon" src = "new.jpg" alt = "New Issue">New Issue </img> 
+    </a>
+    <br>
+    <a href="Login.html">
+    <img id = "icon" src = "log.png" alt = "Logout">Logout </img> 
+    </a>
+    </div>
+    </div>
+<div id = "fields">
+<h1>Create Issue </h1>
+<h3>Title</h3> 
+<input type = "text" id ="ITitle">
+<h3>Description</h3> 
+<input type = "text" id ="Description">
+<h3>Assigned To</h3> 
+<input type = "text" id ="Assignedto">
+<h3>Type</h3> 
+<select id = "Slide">
+        <option value="Bug">Bug</option>
+        <option value="Proposal">Proposal</option>
+        <option value="Task">Task</option>
+      </select>
+<h3>Priority</h3> 
+<select id = "Slide">
+        <option value="Major">Major</option>
+        <option value="Minor">Minor</option>
+        <option value="Critical">Critical</option>
+      </select>
+
+<br>
+
+<button id= "Submit">Submit</button>
+
+</div> 
+
+
+</div>
+
+</body>
+
+</html>

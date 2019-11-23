@@ -1,0 +1,162 @@
+#container{
+    display:flexbox;
+}
+
+#top{
+    background-color:black;
+    color:white;
+    
+}
+#contents{
+    padding-left:20px;
+    width:200px;
+}
+#contents2{
+    padding-left:10px;
+    
+}
+#sidebar{
+    float:left;
+    background-color:gray;
+    padding-right:80px;
+    height:600px;
+}
+
+#fields{
+    padding-left:250px;
+}
+
+button{
+    margin-top:10px;
+    width:150px;
+    height:25px;
+    background-color:blue;
+    color:white;
+
+}
+
+#Assigned{
+    padding-bottom:20px;
+}
+#Bugtype{
+    padding-bottom:20px;
+}
+#Priorityof{
+    padding-bottom:20px;
+}
+#Status{
+    padding-bottom:20px;
+}
+#rightside{
+    padding-top:100px;
+    float:right;
+}
+#inrightside{
+    background-color:lightgray;
+}
+button#closed{
+    margin-top:10px;
+    width:150px;
+    height:25px;
+    background-color:blue;
+    color:white;
+
+}
+button#progress{
+    margin-top:10px;
+    width:150px;
+    height:25px;
+    background-color:green;
+    color:white;
+
+}
+button#Issue{
+    margin-top:10px;
+    width:150px;
+    height:50px;
+    background-color: green;
+    color:white;
+    float:right;
+
+}
+
+h4{
+    display: inline;
+    
+}
+#Filter{
+    padding-right:10px;
+}
+#All{
+    padding-right:10px;
+}
+#Open{
+    padding-right:10px;
+}
+#Tickets{
+    padding-right:10px;
+}
+#Filters{
+    padding-bottom:50px;
+}
+h5{
+    display: inline;
+    
+}
+#Title{
+    padding-right:100px;
+}
+#Type{
+    padding-right:50px;
+}
+#Status{
+    padding-right:50px;
+}
+#To{
+    padding-right:50px;
+}
+#Created{
+    padding-right:50px;
+}
+
+#Issueheadings{
+    background-color:lightgray;
+    
+}
+input{
+    width:400px;
+    height: 20px;
+    background-color:lightgray;
+}
+input#Description{
+    width:400px;
+    height:100px;
+    background-color:lightgray;
+
+}
+#Slide{
+    width:400px;
+    height:20px;
+    background-color:lightgray;
+
+}
+
+p{
+    float:right;
+    
+}
+
+#bug{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    
+    
+}
+#icon{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
